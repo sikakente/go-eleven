@@ -13,6 +13,7 @@ type Album struct {
 	Price  float64 `json:"price"`
 }
 
+// in memory list of albums
 var albums = []Album{
 	{ID: "1", Title: "Blue train", Artist: "John Coltrane", Price: 56.99},
 	{ID: "2", Title: "Jeru", Artist: "Gerry Mulligan", Price: 17.99},
